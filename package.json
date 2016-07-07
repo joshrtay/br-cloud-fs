@@ -1,0 +1,18 @@
+{
+  "name": "br-cloud-fs",
+  "description": "Browserify cloud-fs url inliner.",
+  "repository": "git://github.com/joshrtay/br-cloud-fs.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {
+    "cloud-fs": "^0.1.1",
+    "static-module": "^1.3.1"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
